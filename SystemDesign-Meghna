@@ -1,0 +1,98 @@
+System Development Approach
+
+For the development of the SLAM-based mobile robot project, an Agile development approach would be most suitable. The Agile approach is well-suited to this project due to its flexibility, focus on user feedback, iterative development, and effective risk management. It will allow the project team to deliver a high-quality product that meets the needs of small childcare centres while staying adaptable to changes and new insights.
+
+1. Flexibility and Adaptability:
+•	Rapid Iterations: Agile allows for iterative development, meaning you can develop the robot in incremental stages. This approach enables you to test and refine each component, such as navigation, human detection, and safety features, as they are developed.
+•	Responsive to Change: Given that this project involves integrating advanced technologies, requirements may evolve as the project progresses. Agile's flexibility allows the team to adapt to changes without significant disruptions.
+2. Stakeholder Engagement:
+•	Continuous Feedback: Agile encourages regular interaction with stakeholders (e.g., childcare centre staff, parents), ensuring that their feedback is incorporated throughout the development process. This engagement helps ensure that the final product meets the actual needs of the users.
+3. Risk Management:
+•	Early Detection of Issues: The iterative nature of Agile allows for the early identification of potential issues, such as hardware limitations or privacy concerns. Addressing these issues early reduces the risk of major setbacks later in the project.
+•	Prioritization of Features: Agile allows the team to prioritize critical features, ensuring that the most important aspects of the project (e.g., safety features) are developed and tested first.
+4. Quality Control:
+•	Continuous Testing: Agile involves ongoing testing and validation, which helps maintain high-quality standards throughout the development process. This approach ensures that each component of the robot, from navigation to child detection, functions as intended before the next phase begins.
+5. Efficient Resource Management:
+•	Focused Development: Agile helps in allocating resources efficiently by focusing on small, manageable tasks. This is particularly beneficial for a project like this, which has several technical components that need specialized attention.
+6. Time Management:
+•	Defined Sprints: Agile breaks the project into sprints, each with its own timeline and deliverables. This structure helps keep the project on track and ensures timely completion of each phase, aligning with the overall project schedule.
+
+Non-Functional Requirements
+
+1. Look and Feel Requirements
+•	User Interface Aesthetics: The robot's interface, if any (e.g., a display for caregivers), should have a child-friendly and intuitive design, with soft colours and large icons that are easy to understand.
+•	Physical Appearance: The robot should have a non-threatening, appealing design, with a compact size and smooth edges, ensuring it fits seamlessly into childcare environments.
+2. Usability and Humanity Requirements
+•	Ease of Use: The system should be easy to operate by caregivers with minimal technical knowledge. Clear instructions and simple controls should be provided.
+•	Accessibility: The robot should be accessible to all users, including those with disabilities. This includes easy access to controls, voice commands, and other interactive features.
+•	Language Support: The system should support multiple languages to cater to diverse childcare environments.
+3. Performance Requirements
+•	Response Time: The system should provide real-time responses, with a maximum delay of 1 second for critical operations like obstacle detection and navigation adjustments.
+•	Battery Life: The robot should have a minimum operational battery life of 8 hours to cover a full day in a childcare setting without needing a recharge.
+•	Scalability: The system should be scalable to operate in various sizes of indoor environments, from single rooms to larger childcare centres.
+4. Operational Requirements
+•	Environmental Conditions: The robot should operate effectively in typical indoor environments, withstanding temperatures between 15°C and 30°C and moderate levels of humidity.
+•	Autonomous Operation: The robot should function autonomously, with minimal human intervention required for routine operations.
+•	Compatibility: The system should be compatible with standard power supplies and easy to integrate with existing infrastructures in childcare centres.
+5. Maintainability and Support Requirements
+•	Software Updates: The system should support over-the-air software updates to ensure it remains up to date with the latest features and security patches.
+•	Modularity: The robot’s design should be modular, allowing easy replacement or upgrading of individual components without requiring complete system overhauls.
+•	Technical Support: Comprehensive technical support should be provided, including user manuals, online resources, and customer service.
+6. Security Requirements
+•	Data Encryption: All data transmitted by the robot, particularly location and any personal data, should be encrypted using industry-standard protocols.
+•	User Authentication: Access to the robot’s settings and control systems should be restricted through robust user authentication mechanisms.
+•	Tamper Resistance: The robot should be physically tamper-resistant to prevent unauthorized access to internal components.
+7. Cultural and Political Requirements
+•	Cultural Sensitivity: The robot should respect cultural norms in different regions, avoiding behaviours or designs that could be considered inappropriate or offensive.
+•	Localization: The robot should be customizable to adhere to local childcare regulations and practices.
+8. Legal Requirements
+•	Compliance with Safety Standards: The robot must comply with relevant safety regulations, including child safety standards for electronic devices in childcare environments.
+•	Privacy Compliance: The system must adhere to data protection regulations, such as GDPR or equivalent local laws, ensuring that any data collected is handled with strict confidentiality.
+•	Certification: The robot should obtain necessary certifications for safe operation in childcare environments, such as CE marking or equivalent certifications.
+
+9. Reliability Requirements
+•	System Availability: The robot should maintain an uptime of at least 99.9%, ensuring it is operational throughout the childcare centre’s hours.
+•	Fault Tolerance: The system should be able to handle minor hardware or software faults without complete failure, allowing for graceful degradation of functionality rather than total shutdown.
+•	Backup and Recovery: The system should have mechanisms for data backup and recovery in case of system crashes or power failures.
+
+Overall Use Case Diagram
+The overall use case diagram for this system in a small childcare centre will depict the interactions between the three primary actors—Childcare Staff, System Administrator, and Maintenance Technician—and the system. Each actor has specific roles and responsibilities within the system, represented by different use cases.
+ 
+Actors and Use Cases
+1.	Childcare Staff
+o	Turn the Robot On/Off: This use case involves the basic operation of powering the robot on or off at the beginning or end of the day. It’s a straightforward task but crucial for the robot’s operation.
+o	Monitor the Robot: Childcare Staff monitor the robot’s activities, such as its navigation through the childcare centre and its interaction with the environment. This includes responding to any alerts generated by the robot.
+2.	System Administrator
+o	Perform Initial Setup and Configuration: The System Administrator is responsible for the initial setup of the robot, which includes configuring the environment map, setting up user accounts, and configuring system settings to tailor the robot's functions to the specific environment.
+o	Navigate/Guide the Robot: The System Administrator can manually control or override the robot’s navigation system, directing it to specific locations or overriding its automated paths when necessary.
+o	Train the User: This use case covers the System Administrator’s responsibility to train Childcare Staff on how to use the robot effectively, including turning it on/off, monitoring, and responding to alerts.
+o	Update the System/Patches: The System Administrator handles the periodic updates and patches to the robot's software, ensuring it has the latest features, security measures, and bug fixes.
+o	Assist in Maintenance: The System Administrator may assist the Maintenance Technician during maintenance activities, especially those related to software diagnostics or updates that need to be performed alongside hardware maintenance.
+3.	Maintenance Technician
+o	Routine Maintenance: This use case involves the regular maintenance of the robot, such as checking the sensors, cleaning the hardware, and performing diagnostics to ensure it is operating correctly.
+o	Hardware Repairs: If the robot experiences a hardware malfunction or damage, the Maintenance Technician is responsible for diagnosing the issue and performing the necessary repairs or part replacements.
+
+
+Member Contribution Table
+Members Name	Sections Written	Tasks Undertaken
+Mary	- Functional Requirements
+- Meeting Minutes
+- System navigation and UI
+- Project Schedule	- Distribution of work
+- Writeup for the mentioned sections
+ -Setup meeting & maintain group register
+- Helping and guiding team members with the topics
+Meghna	- System Development Approach
+- Use Case Diagram
+- Member Contribution Table
+- Non- Functional Requirements	- Distribution of work
+- Writeup for the mentioned sections
+- Research case study
+John	- Project Cost Estimate
+- Issues and Solutions 
+- Human Factors
+	- Writeup for the mentioned sections
+- Distribution of work
+- Research case study
+
+
